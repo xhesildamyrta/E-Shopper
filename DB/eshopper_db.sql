@@ -37,15 +37,6 @@ CREATE TABLE  products(
     FOREIGN KEY (category_id) REFERENCES category(cid) ON DELETE CASCADE,
     FOREIGN KEY (subcategory_id) REFERENCES subcategory(sid) ON DELETE CASCADE
     );
-
-CREATE TABLE cart(
-    id int PRIMARY KEY AUTO_INCREMENT,
-    user_id int,
-    pid int,
-     FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE,
-    FOREIGN KEY (pid) REFERENCES products(pid) ON DELETE CASCADE
-    );
-
 CREATE TABLE order_details (  
     order_id int  PRIMARY KEY  AUTO_INCREMENT, 
     user_id int,
