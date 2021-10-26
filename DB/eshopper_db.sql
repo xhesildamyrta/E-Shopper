@@ -61,8 +61,8 @@ total_amount float(10,2),
 INSERT INTO user_roles(id,role) VALUES(1,'admin');
 INSERT INTO user_roles(id,role) VALUES(2,'user');
 
-INSERT INTO users(id,role_id,full_name,username,email,password,address) VALUES(1,1,'Administrator Jessi','jessy007','xhesi@gmail.com',md5('xhesi2021'),'');
-INSERT INTO users(id,role_id,full_name,username,email,password,address) VALUES(2,2,'User Test','usertest01','test@yahoo.com',md5('test2021'),'Elbasan 3001');
+INSERT INTO users(id,role_id,full_name,username,email,password,address) VALUES(1,1,'Administrator','admin007','admin@gmail.com',md5('admin123'),'');
+INSERT INTO users(id,role_id,full_name,username,email,password,address) VALUES(2,2,'User Test','usertest01','test@yahoo.com',md5('test2021'),'test 3001');
 
 INSERT INTO category(cid,cat_name) VALUES(1,'Desktop');
 INSERT INTO category(cid,cat_name) VALUES(2,'Laptop');
