@@ -3,6 +3,6 @@ e-shopper is an E-commerce project which contains the admin and user side where 
 details,and buy product online.While the admin manages all needed proccesses.
 Credentials for admin:
 
-Email: admina@gmail.com
+Email: admin@gmail.com
 
 Pass: admin123
