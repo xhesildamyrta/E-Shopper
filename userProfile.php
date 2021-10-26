@@ -254,8 +254,7 @@ else{
           </div>
         </div>
       </div>
-    </div><!--card overflow-hidden-->
- <!--buttons have benn here before-->
+    </div>
 </form>  
 </div>
 
