@@ -42,7 +42,6 @@ session_start();
 
 <!doctype html>
 <html lang="en" class="no-js">
-
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -71,35 +70,16 @@ session_start();
 	<link rel="stylesheet" href="css/style.css">
 
   <style>
-		.errorWrap {
-    padding: 10px;
-    margin: 0 0 20px 0;
-    background: #fff;
-    border-left: 4px solid #dd3d36;
-    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
-}
-.succWrap{
-    padding: 10px;
-    margin: 0 0 20px 0;
-    background: #fff;
-    border-left: 4px solid #5cb85c;
-    -webkit-box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
-    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
-}
- 
 #xhb{
 outline: none;	
 background-color: darkorange; 
 width: 100px; 
 font-size:13px;
 }
-
-		</style>
+</style>
 
 
 </head>
-
 <body>
 	<?php include('includes/header.php');?>
 	<div class="ts-main-content">
