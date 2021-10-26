@@ -13,7 +13,7 @@ session_start();
 		$query = mysqli_query($link,$sql);
 		$row = mysqli_fetch_array($query);
 
-		if(md5($old)==md5($row['password'])){    //  check old pass
+		if(md5($old)==$row['password']){    //  check old pass
 			if($new == $retype){                 //now check new with confirm
 				$password = md5($new);            //now i encrypt retyped pass
 				$sql = "UPDATE users SET password = '$password' WHERE id =$user_id";
